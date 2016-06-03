@@ -1,1 +1,41 @@
 @import "partials/base";
+
+// DELETE ALL THIS SOON
+
+body{
+    background-color: #101010;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: sans-serif;
+    p{
+        line-height: 1.5;
+        margin: 0px 0px 20px 0px;
+    }
+}
+.wrapper{
+    max-width: 650px;
+    margin: auto;
+}
+header{
+    background-color: #fff;
+    padding: 20px;
+    margin: 0px 0px 50px 0px;
+    a{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+        text-decoration: none;
+        color: #1055ff;
+        display: block;
+        text-transform: uppercase;
+    }
+}
+article{
+    a{
+        display: block;
+        font-size: 20px;
+        margin: 0px 0px 20px 0px;
+        color: #fff;
+    }
+}

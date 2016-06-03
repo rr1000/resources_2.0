@@ -1,9 +1,12 @@
 <html>
     <head>
         <title>testing</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
     <body>
-        +++++++++++++++++++
-        <%= yield %>
+        <%= partial "partials/header" %>
+        <div class="wrapper">
+            <%= yield %>
+        </div>
     </body>
 </html>
